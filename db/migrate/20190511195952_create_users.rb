@@ -1,5 +1,5 @@
 class CreateUsers < ActiveRecord::Migration
   def change
-    create_table :User
+    create_table :users
   end
 end
